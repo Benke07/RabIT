@@ -1,0 +1,6 @@
+FallbackResource /rabit/index.php
+
+RewriteEngine On
+
+RewriteRule ^users/([0-9]+) index.php?uid=$1
+RewriteRule ^ads/([0-9]+) index.php?aid=$1
